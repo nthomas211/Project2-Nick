@@ -168,5 +168,39 @@ ul
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 60%;
+    text-color: white;
+}
+
+li
+{
+    list-style: none;
+}
+
+.left-side li
+{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px)
+{
+    .logo
+    {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu
+    {
+        flex: 0.1;
+        padding-left: 2%;
+    }
+
+    .menu:hover
+    {
+        cursor: pointer;
+    }
 }
