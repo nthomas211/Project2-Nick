@@ -84,3 +84,16 @@ input:focus ~ label, input:not(:placeholder-shown) ~ label
     color: #69f0ae;
     font-size: 15px;
 }
+
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
+{
+    top: -10.5em;
+    color: #69f0ae;
+    font-size: 15px;
+}
+
+.button-div
+{
+    display: flex;
+    justify-content: center;
+}
