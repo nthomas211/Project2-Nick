@@ -7,3 +7,12 @@ body {
   line-height: 1.6;
   list-style-type: none;
 }
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
