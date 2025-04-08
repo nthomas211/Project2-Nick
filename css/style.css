@@ -157,3 +157,16 @@ button:hover
 {
     padding: 0 2%;
 }
+
+.logo img
+{
+    height: 7vh;
+}
+
+ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
