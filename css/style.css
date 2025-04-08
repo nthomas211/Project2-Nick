@@ -4,9 +4,21 @@ body {
   font-family: 'Arial', 'Helvetica', sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
   line-height: 1.6;
   list-style-type: none;
+  color: #f5f5f5;
+  *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+    color: #f5f5f5;
+}
 }
 /* Main Form */
 main
@@ -181,11 +193,10 @@ ul
     color: #f0e6e6;
 }
 
-li
-{
-    list-style: none;
-    color: #f0e6e6;
+li {
   
+    list-style: none;
+    color: #f0e6e6;  
 }
 
 .left-side li
