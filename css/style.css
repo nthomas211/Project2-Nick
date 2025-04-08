@@ -77,3 +77,10 @@ label
 	  cursor: auto;
     transition: 0.3s ease all;
 }
+
+input:focus ~ label, input:not(:placeholder-shown) ~ label
+{
+    top: -4em;
+    color: #69f0ae;
+    font-size: 15px;
+}
