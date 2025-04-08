@@ -44,3 +44,15 @@ main
     line-height: 2.5;
 }
 
+input, textarea
+{
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #757575;
+    padding: 1.5%;
+    font-size: 20px;
+}
+
+ 
