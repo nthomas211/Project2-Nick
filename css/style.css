@@ -42,7 +42,7 @@ main
 .input-group, .textarea-group
 {
     padding: 1% 0;
-    line-height: 2.5;
+    
 }
 
 input, textarea
@@ -52,7 +52,7 @@ input, textarea
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #757575;
-    padding: 1.5%;
+    padding: 0.5%;
     font-size: 20px;
 }
 
@@ -110,4 +110,29 @@ button
     background-color: black;
     color: inherit;
     box-shadow: 0 0 10px #212121;    
+}
+
+button:hover
+{
+    background-color: #424242;
+    color: #69f0ae;
+    cursor: pointer;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1200px)
+{
+    .form
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    .form
+    {
+		width: 90%;
+    }
 }
