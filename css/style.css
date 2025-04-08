@@ -104,5 +104,10 @@ button
     width: 50%;
     border: 1px solid;
     border-color: #212121;
-    
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 18px;
+    background-color: black;
+    color: inherit;
+    box-shadow: 0 0 10px #212121;    
 }
