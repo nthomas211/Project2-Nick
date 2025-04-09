@@ -1,5 +1,5 @@
 body {
-  /* background-image: url("..//media/black.jpg");*/
+  background-image: url("..//media/drop.jpg");
   background-color: black;
   font-family: 'Arial', 'Helvetica', sans-serif;
   margin: 0;
@@ -56,7 +56,7 @@ input, textarea
     border: none;
     border-bottom: 1px solid #757575;
     padding: 0.5%;
-    font-size: 20px;
+    font-size: 15px;
 }
 
  input:focus, textarea:focus
@@ -79,6 +79,7 @@ label
     top: -2em;
 	  cursor: auto;
     transition: 0.3s ease all;
+    font-size: 15px;
 }
 
 input:focus ~ label, input:not(:placeholder-shown) ~ label
@@ -117,28 +118,35 @@ button
 
 button:hover
 {
-    background-color: #424242;
-    color: #69f0ae;
+    background-color: #8a0611;
+    color: #f7f7f7;
     cursor: pointer;
 }
 
 /* Media queries */
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 850px)
 {
-    .form
-    {
+    .form {
         width: 70%;
     }
+    
+    body {
+    background-image: url("..//media/black.jpg");
+    }
+    
+    ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 15%;
+    font-size: 12px;
+    text-transform: uppercase; 
+    color: #f0e6e6;
 }
 
-@media screen and (max-width: 680px)
-{
-    .form
-    {
-		width: 90%;
-    }
 }
+
 
 /* head */
 
@@ -148,6 +156,7 @@ button:hover
     display: flex;
     align-items: center;
     color: #f0e6e6;
+    background-image: linear-gradient(to right, black, #211e1e);
 }
 
 .left-side
@@ -243,11 +252,12 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 20vh;
-    width: 75%;
+    height: 15vh;
+    width: 100%; 
     margin: auto;
     opacity: 5.2;
     border-top: 1px solid #212121;
+    background-image: linear-gradient(to right, #420c0c, black);
 }
 
 footer:hover {
