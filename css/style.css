@@ -255,15 +255,11 @@ footer {
     height: 15vh;
     width: 100%; 
     margin: auto;
-    opacity: 5.2;
+    opacity: 1px;
     border-top: 1px solid #212121;
     background-image: linear-gradient(to right, #420c0c, black);
 }
 
-footer:hover {
-    animation: fade 0.3s ease;
-    opacity: 1.9;
-}
 
 .social-media-img {
     height: 5vh;
